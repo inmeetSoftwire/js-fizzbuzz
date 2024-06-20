@@ -8,7 +8,7 @@ This is our first programming exercise in the bootcamp. We will write some code 
     - Click "Fork" in the top-right of the page - this will create a copy of this repo in *your own GitHub account*
 2. Clone (download) the repo
     - Go to your newly-created fork of the repo (on GitHub).
-    - Click `Clone or download` (the green button on the right).
+    - Click `Code` (the green button on the right).
     - Make a note of the URL. For this you can clone with either HTTPS or SSH.
     - Clone your repo into a folder by running `git clone <your-url-here>` in your terminal of choice
 
