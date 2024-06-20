@@ -10,7 +10,7 @@ This is our first programming exercise in the bootcamp. We will write some code 
     - Go to your newly-created fork of the repo (on GitHub).
     - Click `Code` (the green button on the right).
     - Make a note of the URL. For this you can clone with either HTTPS or SSH.
-    - Clone your repo into a folder by running `git clone <your-url-here>` in your terminal of choice
+    - Clone your repo into a folder by running `git clone <your-url-here>` in your terminal of choice (in the location that you want to save your work)
 
 3. "Cloning the repo" will create a folder on your computer with the files from this repo. Open this folder in VSCode.
 
