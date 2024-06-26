@@ -1,7 +1,7 @@
 // This is our main function
 function fizzbuzz() {
     
-    for (let i=0; i<=100; i++) {
+    for (let i=0; i<=255; i++) {
         let stringBuffer = ""
         // If divisible by 11, all other cases can be ignored
         if (i % 11 == 0) {
@@ -29,7 +29,12 @@ function fizzbuzz() {
                 stringBuffer += "Fezz"
             }
         }
-        
+
+        // Reverses order of words in stringBuffer if divisible by 17
+        if (i % 17 == 0 && stringBuffer != "") {
+            let wordArray = stringBuffer.match(/([A-Z]?[^A-Z]*)/g)
+            stringBuffer = wordArray.reverse().join("")
+        }
         // Output
         if (stringBuffer == "") {
             console.log(i)
