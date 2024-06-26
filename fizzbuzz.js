@@ -3,14 +3,18 @@ function fizzbuzz() {
     
     for (let i=0; i<=100; i++) {
         let stringBuffer = ""
-        if (i % 3 == 0) {
-            stringBuffer += "Fizz"
-        }
-        if (i % 5 == 0) {
-            stringBuffer += "Buzz"
-        }
-        if (i % 7 == 0) {
-            stringBuffer += "Bang"
+        if (i % 11 == 0) {
+            stringBuffer = "Bong"
+        } else {
+            if (i % 3 == 0) {
+                stringBuffer += "Fizz"
+            }
+            if (i % 5 == 0) {
+                stringBuffer += "Buzz"
+            }
+            if (i % 7 == 0) {
+                stringBuffer += "Bang"
+            }
         }
         if (stringBuffer == "") {
             console.log(i)
